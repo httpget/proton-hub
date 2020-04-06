@@ -23,13 +23,10 @@ for i,v in pairs(get_gc_objects(true)) do
 			v.getammo = function() return 999 end
 			v.getsecondaryammo = function() return 999 end
 			while wait() do
-				v.speedreduction = 5
 				v.recoil = 0
 				v.currentspread = 0
 				v.reloadtime = 0
-				v.currentTargetHealth = 1
-				v.secondaryduration = 0
-				v.mode = "automatic"
+				v.mode = "automatic" -- Makes it so you can just hold your click down and it'd shoot
 			end
 		end
 	end
