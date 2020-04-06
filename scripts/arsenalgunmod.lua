@@ -17,7 +17,9 @@
 --]]
 
 spawn(function()
-	get_gc_objects = getgc -- SynX Compatibility 
+	if getgenv().syn ~= nil then
+		get_gc_objects = getgc -- SynX Compatibility 
+	end
 end
 
 for i,v in pairs(get_gc_objects(true)) do
