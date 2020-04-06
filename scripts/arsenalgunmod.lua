@@ -11,8 +11,8 @@
 	| $$                                                                                            
 	|__/    
 	
-	When using this script for please keep this watermark.
-	This may look buggy in protosmasher's text editor but it should work fine
+	When using/modifiying this script please keep this watermark.
+	This may look buggy in protosmasher's text editor but it should work fine.
 	- HttpGet
 --]]
 
