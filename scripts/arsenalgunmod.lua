@@ -16,6 +16,10 @@
 	- HttpGet
 --]]
 
+spawn(function()
+	get_gc_objects = getgc -- SynX Compatibility 
+end
+
 for i,v in pairs(get_gc_objects(true)) do
 	if type(v) == "table" then
 		if rawget(v, "getammo") then
