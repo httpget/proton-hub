@@ -11,8 +11,10 @@
 	| $$                                                                                            
 	|__/    
 	
-	When using this script for please keep this watermark - HttpGet
-]]
+	When using this script for please keep this watermark.
+	This may look buggy in protosmasher's text editor but it should work fine
+	- HttpGet
+--]]
 
 for i,v in pairs(get_gc_objects(true)) do
 	if type(v) == "table" then
