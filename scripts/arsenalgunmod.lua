@@ -20,7 +20,7 @@ spawn(function()
 	if getgenv().syn ~= nil then
 		get_gc_objects = getgc -- SynX Compatibility 
 	end
-end
+end)
 
 for i,v in pairs(get_gc_objects(true)) do
 	if type(v) == "table" then
